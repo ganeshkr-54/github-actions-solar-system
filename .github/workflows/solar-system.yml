@@ -49,7 +49,7 @@ jobs:
                 node-version: 18
 
             - name: Install NodeJS dependencies
-              run: num run install
+              run: num install
 
             - name: Run Code-coverage
               run: num run code-coverage
@@ -61,5 +61,6 @@ jobs:
                 name: Code-Coverage-Result
                 path: coverage
                 retention-days: 5
+
 
 
